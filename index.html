@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- 
+    ================================================
+    Nama       : Putri Ummi Qolstsum
+    NIM        : 250401010327
+    Kelas      : IF 203
+    Mata Kuliah: Pemrograman Web 1
+    ================================================
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Putri Ummi Qolstsum </title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- External stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylep.css">
+
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+  <div class="header-container">
+    <!-- Foto Diri / Avatar -->
+    <div class="profile-photo">
+      <img src="assets/img/pto.jpg" alt="Foto Formal Putri">
+    </div>
+    <!-- H1 Heading -->
+    <h1>Putri Ummi Qolstsum</h1>
+    <p class="tagline mt-1">Mahasiswa Teknik Informatika &nbsp;|&nbsp; Executive Junior Secretary &nbsp;</p>
+    <div class="mt-3">
+      <!-- Link Eksternal 1 -->
+      <a href="https://github.com/Putriqls" target="_blank" class="btn btn-outline-light btn-sm me-2">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+      <!-- Link Eksternal 2 -->
+      <a href="https://www.linkedin.com/in/putriummiqlst/" target="_blank" class="btn btn-outline-light btn-sm me-2">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+      <!-- Link Eksternal 3 -->
+      <a href="https://unsia.ac.id" target="_blank" class="btn btn-warning btn-sm text-dark fw-bold">
+        <i class="bi bi-mortarboard-fill"></i> UNSIA
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="cv-nav">
+  <div class="container d-flex flex-wrap gap-1">
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</nav>
+
+<!-- ===================== TENTANG SAYA ===================== -->
+<section id="tentang">
+  <div class="container">
+    <h2 class="section-title">Tentang Saya</h2>
+    <div class="section-divider"></div>
+    <div class="row g-4">
+      <div class="col-md-8">
+        <!-- Paragraf 1 -->
+        <p class="mb-3" style="font-size:1.05rem; line-height:1.8;">
+          Halo! Nama saya <strong>Putri Ummi Qolstsum</strong>, Seorang Junior Secretary sekaligus <em> mahasiswi aktif Teknik Informatika</em> 
+          di Universitas Siber Asia.memiliki ketertarikan mendalam pada dunia teknologi, khususnya 
+          <u>Cyber Security</u>. Melalui kombinasi pengalaman kerja dalam manajemen administrasi dan latar belakang SMK di bidang IT
+          saya memiliki kemampuan manajemen waktu dan komunikasi yang kuat.Tujuan saya menekuni bidang ini adalah untuk memahami 
+          arsitektur keamanan sistem informasi, menguasai teknik mitigasi risiko
+          siber, serta bersiap kontribusi aktif dalam melindungi aset data digital dari berbagai ancaman siber di masa depan.
+        </p>
+        <!-- Paragraf 2 -->
+        <p style="font-size:1.05rem; line-height:1.8;">
+          Di luar kuliah dan bekerja, saya aktif mengikuti berbagai <mark>workshop teknologi</mark>
+          Saya juga gemar mengikuti open-source dan terus belajar teknologi baru 
+          seperti <strong>Machine Learning</strong>. 
+          Tujuan saya adalah menjadi seorang <em>Cyber Security</em> yang profesional dan berdampak 
+          bagi masyarakat Indonesia.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <div class="cv-card">
+          <h5 class="mb-3" style="color:var(--gold)"><i class="bi bi-info-circle me-2"></i>Info Singkat</h5>
+          <!-- List 1: Unordered -->
+          <ul class="list-unstyled" style="line-height:2;">
+            <li><i class="bi bi-person-fill me-2 text-warning"></i><strong>Nama:</strong> Putri Ummi Qolstsum</li>
+            <li><i class="bi bi-card-text me-2 text-warning"></i><strong>NIM:</strong> 250401010327</li>
+            <li><i class="bi bi-calendar-fill me-2 text-warning"></i><strong>TTL:</strong> Jayapura, 12 Aug 2006</li>
+            <li><i class="bi bi-geo-alt-fill me-2 text-warning"></i><strong>Domisili:</strong> Jayapura, Papua</li>
+            <li><i class="bi bi-mortarboard-fill me-2 text-warning"></i><strong>Prodi:</strong> Teknik Informatika</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PENDIDIKAN ===================== -->
+<section id="pendidikan">
+  <div class="container">
+    <h2 class="section-title">Riwayat Pendidikan</h2>
+    <div class="section-divider"></div>
+
+    <!-- Tabel 1: Riwayat Pendidikan -->
+    <div class="table-responsive mb-4">
+      <table class="table table-bordered cv-table">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Jenjang</th>
+            <th>Nama Sekolah</th>
+            <th>Jurusan </th>
+            <th>Tahun Lulus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><span class="badge bg-warning text-dark">SD</span></td>
+            <td>SDN Inpres Perumnas 1 Jayapura</td>
+            <td>Umum</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><span class="badge bg-info text-dark">SMP</span></td>
+            <td>SMP Pembangunan V Yapis Jayapura</td>
+            <td>Umum</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><span class="badge bg-success">SMA</span></td>
+            <td>SMK Hikmah Yapis Jayapura</td>
+            <td>Rekayasa Perangkat Lunak</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><span class="badge bg-danger">S1</span></td>
+            <td>Universitas Siber Asia</td>
+            <td>Teknik Informatika</td>
+            <td>2025 – Sekarang</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PENGALAMAN ===================== -->
+<section id="pengalaman">
+  <div class="container">
+    <h2 class="section-title">Pengalaman</h2>
+    <div class="section-divider"></div>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h5 class="mb-4 fw-bold"><i class="bi bi-trophy-fill  me-2 text-warning"></i>Organisasi & Kepanitiaan</h5>
+        <div class="timeline-item">
+          <div class="timeline-year">Juni 2023</div>
+          <div class="timeline-title">Lomba Kompetensi Siswa SMK Web Technology</div>
+          <div class="timeline-sub">Tingkat Provinsi Papua</div>
+          <p class="mt-2 text-muted" style="font-size:0.92rem;">
+            Membangun website profil lokal menggunakan HTML, CSS, Bootstrap, dan sedikit PHP.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">Februari 2023</div>
+          <div class="timeline-title">Secretary OSIS</div>
+          <div class="timeline-sub">SMK Hikmah Yapis Jayapura</div>
+          <p class="mt-2 text-muted" style="font-size:0.92rem;">
+            Membantu dan manage all schedule kepanitiaan OSIS untuk menyelengarakan berbagai kegiatan organisasi.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-4 fw-bold"><i class="bi bi-briefcase-fill me-2 text-warning"></i>Pengalaman Kerja</h5>
+        <div class="timeline-item">
+          <div class="timeline-year">03 Jul - 03 Nov 2023</div>
+          <div class="timeline-title">Praktik kerja Lapangan</div>
+          <div class="timeline-sub">Kejaksaan Tinggi Provinsi Papua</div>
+          <p class="mt-2 text-muted" style="font-size:0.92rem;">
+            Bertanggung jawab membantu Staff / ASN pengelola penanganan perkara pidana umum (pidum)
+            terhadap aplikasi Surat Disposisi Elektronik (SIPEDE)dan segala dokumen hal administratif yang berkepentingan dengan isntansi Kejaksaan.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">27 Des 2024 - Sekarang</div>
+          <div class="timeline-title">Executive Junior Secretary</div>
+          <div class="timeline-sub">Hotel at Jayapura Papua</div>
+          <p class="mt-2 text-muted" style="font-size:0.92rem;">
+            Bertanggung jawab membantu General Manager terhadap minutes daily morning briefing
+            manage all schedule meeting with management hotel, manage all files from Head Of departement to archieve Google Drive, mampu mengoperasikan Canva
+            untuk keperluan editing, membuat dan mengirimkan Memo Internal dengan menggunakan microsoft tools. serta mengurus hal administratif yang berkepentingan
+            dengan General Manager atau Operational Hotel.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== KEAHLIAN ===================== -->
+<section id="keahlian">
+  <div class="container">
+    <h2 class="section-title">Keahlian</h2>
+    <div class="section-divider"></div>
+
+    <h5 style="margin-bottom: 12px;">Keahlian Teknis</h5>
+    <p>Microsoft Office &mdash; 95%</p>
+    <p>HTML &amp; CSS &mdash; 90%</p>
+    <p>JavaScript &mdash; 75%</p>
+    <p>Bootstrap &mdash; 60%</p>
+    <p>PHP &amp; MySQL &mdash; 85%</p>
+    <p>Python &mdash; 30%</p>
+
+    <h5 style="margin-top: 30px; margin-bottom: 12px;">Tools yang Dikuasai</h5>
+    <ol style="line-height: 2.2; padding-left: 18px;">
+      <li>VS Code &mdash; Editor utama pengembangan web</li>
+      <li>Git &amp; GitHub &mdash; Version control dan kolaborasi</li>
+      <li>Figma &mdash; Desain UI/UX dan wireframing</li>
+      <li>XAMPP &mdash; Local server untuk PHP &amp; MySQL</li>
+    </ol>
+
+    <h5 style="margin-top: 30px; margin-bottom: 12px;">Teknologi</h5>
+    <p>HTML5, CSS3, JavaScript, Bootstrap 5, PHP, MySQL, Python, React.js, Git, Figma</p>
+  </div>
+</section>
+
+<!-- ===================== GALERI ===================== -->
+<section id="galeri">
+  <div class="container">
+    <h2 class="section-title">Galeri Aktivitas</h2>
+    <div class="section-divider"></div>
+    <div class="row g-3">
+      <!-- Gambar 1 -->
+      <div class="col-md-4">
+        <img
+          src="assets/img/LKS.jpeg"
+          alt="Lomba LKS Prov Papua"
+          class="gallery-img"
+        />
+      </div>
+      <!-- Gambar 2 -->
+      <div class="col-md-4">
+        <img
+          src="assets/img/Secre.jpeg"
+          alt="Work Middle with coach PSBS Biak "
+          class="gallery-img"
+        />
+      </div>
+      <!-- Gambar 3 -->
+      <div class="col-md-4">
+        <img
+          src="assets/img/SecrePHotel.jpeg"
+          alt="Work disccs Operational Hotel"
+          class="gallery-img"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== KONTAK ===================== -->
+<section id="kontak">
+  <div class="container">
+    <h2 class="section-title">Kontak Saya</h2>
+    <div class="section-divider"></div>
+    <div class="row g-4">
+      <div class="col-md-5">
+        <div class="contact-item">
+          <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <strong>Email</strong><br>
+            <a href="kputriqls21@gmail.com" class="text-decoration-none" style="color:var(--navy)">
+              kputriqls21@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <strong>Telepon / WhatsApp</strong><br>
+            <span>+62 812-3560-7163</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <strong>Alamat</strong><br>
+            <span>Jayapura, Papua, Indonesia</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="bi bi-globe"></i></div>
+          <div>
+            <strong>Website / Portfolio</strong><br>
+            <a href="https://github.com" target="_blank" class="text-decoration-none" style="color:var(--navy)">
+              github.com/Putriqls
+            </a>
+          </div>
+        </div>
+      </div>
+      
+          </button>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <p class="mb-1">
+    &copy; 2026 <strong style="color:var(--gold)">Putri Ummi Qolstsum</strong> — Mahasiswa Teknik Informatika, Universitas Siber Asia
+  </p>
+  <p>
+    <a href="https://unsia.ac.id" target="_blank">unsia.ac.id</a> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/putriummiqlst/" target="_blank">GitHub</a> &nbsp;|&nbsp;
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Smooth scroll untuk semua anchor link di navbar
+  document.querySelectorAll('.cv-nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Animasi progress bar saat halaman dimuat
+  window.addEventListener('load', () => {
+    document.querySelectorAll('.progress-bar').forEach(bar => {
+      const width = bar.style.width;
+      bar.style.width = '0';
+      setTimeout(() => {
+        bar.style.transition = 'width 1.2s ease';
+        bar.style.width = width;
+      }, 300);
+    });
+  });
+</script>
+
+</body>
+</html>
